@@ -5,11 +5,15 @@ gem "sprockets-rails"
 gem "sqlite3", ">= 1.4"
 gem "puma", ">= 5.0"
 gem "importmap-rails"
-gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
+gem 'devise', '~> 4.9', '>= 4.9.4'
+gem 'turbo-rails'
+gem "hotwire-rails", "~> 0.1.3"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
+gem 'rails-ujs'
+
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
